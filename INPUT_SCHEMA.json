@@ -1,0 +1,17 @@
+{
+  "title": "CheerioCrawler Template",
+  "description": "Laurar Warehouse",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "ccns": {
+      "title": "Array of Cargo Numbers",
+      "type": "array",
+      "description": "Array of Cargo Numbers",
+      "editor": "json"
+    }
+  },
+  "required": [
+    "ccns"
+  ]
+}
