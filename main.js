@@ -76,7 +76,7 @@ Apify.main(async () => {
 
 
       return result;
-    }
+    })
     result = {
         ...result,
         Delivery_appointment: (result.Delivery_appointment && result.Delivery_appointment.length > 0) ? moment(result.Delivery_appointment).format('YYYY-MM-DD hh:mm:ss') : '',
